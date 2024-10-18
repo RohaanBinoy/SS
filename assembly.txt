@@ -1,0 +1,8 @@
+START   2000
+        LDA     ALPHA
+        ADD     BETA
+        STA     RESULT
+ALPHA:  WORD    10
+BETA:   WORD    20
+RESULT: RESW    2
+        END
